@@ -1,0 +1,554 @@
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+.match-type-panel-wrapper {
+    height: 12.8vw;
+    width: 100%;
+    background-color: #2d2c2b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.match-type-panel-wrapper .type-item, .match-type-panel-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.match-type-panel-wrapper .type-item {
+    display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    cursor: pointer
+}
+
+.match-type-panel-wrapper .type-item:last-child > p {
+    border-right: none
+}
+
+.match-type-panel-wrapper .type-item:hover > p {
+    color: #ffbf34;
+    font-weight: 500
+}
+
+.match-type-panel-wrapper .type-item > p {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 4.8vw;
+    padding-left: 1.06667vw;
+    border-right: 1px solid hsla(0, 0%, 100%, .1);
+    font: 400 3.2vw/4.8vw PingFangSC-Regular, PingFang SC;
+    color: #9a9a9a
+}
+
+.match-type-panel-wrapper .activeType > p {
+    color: #ffbf34;
+    font-weight: 500
+}
+
+.match-type-panel-wrapper .activeType .line {
+    position: relative;
+    top: 2.66667vw;
+    width: 98%;
+    border-bottom: .53333vw solid #ffbf34
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+.match-panel-wrapper {
+    background-color: #232323;
+    border-top-right-radius: 1.06667vw;
+    border-top-left-radius: 1.06667vw
+}
+
+.match-panel-wrapper .match-panel-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 10.66667vw
+}
+
+.match-panel-wrapper .match-panel-container > img {
+    /* width: 36.53333vw; */
+    height: 6vw
+}
+
+.match-panel-wrapper .match-panel-container > p {
+    font-size: 3.2vw;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin: 0 2.13333vw;
+    line-height: 4.53333vw
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+.match-wrapper {
+    width: 100%;
+    margin-top: 2.6vw;
+    background-color: #232323
+}
+
+.match-wrapper .container {
+    padding: 0;
+    background-color: #2d2c2b;
+    min-height: 20vh;
+}
+
+.match-wrapper .container .match-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    height: 24.26667vw;
+    padding: 4vw 4.53333vw 0 4vw;
+    border-bottom: 1px solid #232323
+}
+
+.match-wrapper .container .match-item .match-info {
+    height: 16vw
+}
+
+.match-wrapper .container .match-item .league-info, .match-wrapper .container .match-item .match-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.match-wrapper .container .match-item .league-info {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.match-wrapper .container .match-item .league-info-logo {
+    padding-left: 0
+}
+
+.match-wrapper .container .match-item .home-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 32vw
+}
+
+.match-wrapper .container .match-item .away-team {
+    width: 32vw
+}
+
+.match-wrapper .container .match-item .away-team, .match-wrapper .container .match-item .league {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.match-wrapper .container .match-item .league {
+    width: 85.66667vw
+}
+
+.match-wrapper .container .match-item p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    color: #ccc;
+    font-weight: 500
+}
+
+.match-wrapper .container .match-item img {
+    max-width: 4.8vw;
+    max-height: 4.8vw;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-right: 2.13333vw;
+    max-height: 18px
+}
+
+.match-wrapper .container .match-item-time {
+    width: 16vw;
+    height: 4.8vw;
+    text-align: left;
+    border-right: 1px solid hsla(0, 0%, 100%, .1)
+}
+
+.match-wrapper .container .match-item-home-name {
+    margin-left: 2.66667vw;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.match-wrapper .container .match-item-tag {
+    width: 4vw;
+    margin: 0 1.6vw
+}
+
+.match-wrapper .container .match-item-away-name {
+    text-align: left;
+    margin-right: 2.66667vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+img {
+    border-style: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+.videos-panel {
+    padding-right: 2.66667vw;
+    cursor: pointer;
+    position: relative
+}
+
+.videos-panel:before {
+    content: "";
+    position: absolute;
+    width: 9.6vw;
+    height: 8vw;
+    left: 0
+}
+
+.match-item-wrapper {
+    width: 93.6vw;
+    margin: 0 auto;
+    height: 34.13333vw;
+    border-radius: 1.06667vw;
+    background-color: #2d2c2b
+}
+
+.match-item-wrapper .header {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 7.73333vw;
+    border-top-left-radius: 1.06667vw;
+    border-top-right-radius: 1.06667vw;
+    background-color: #232323
+}
+
+.match-item-wrapper .header .league-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.match-item-wrapper .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.match-item-wrapper .header .league-panel {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.match-item-wrapper .header .league-panel .logo {
+    max-width: 4.8vw;
+    max-height: 4.8vw;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-left: 2.66667vw;
+    padding-right: 2.13333vw;
+    max-height: 18px;
+    min-height: 4.8vw
+}
+
+.match-item-wrapper .header .league-panel .name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #9a9a9a;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC
+}
+
+.match-item-wrapper .item-row-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 8.8vw;
+    padding: 0 2.66667vw
+}
+
+.match-item-wrapper .item-row-title img {
+    max-width: 4.8vw;
+    max-height: 4.8vw
+}
+
+.match-item-wrapper .item-row-title p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    width: 100%;
+    padding-right: 2.66667vw;
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    color: #fff
+}
+
+.match-item-wrapper .item-row-title .tag-1 {
+    min-width: 37.33333vw
+}
+
+.match-item-wrapper .item-row-title .tag-1 .duration {
+    display: inline-block;
+    padding-left: .53333vw
+}
+
+.match-item-wrapper .item-row-title .tag-1 .duration:after {
+    content: "'";
+    font-size: 3.73333vw;
+    margin-left: .53333vw;
+    color: #ffbf34;
+    -webkit-animation: ongoing-blink 1s linear infinite;
+    animation: ongoing-blink 1s linear infinite
+}
+
+.match-item-wrapper .item-row-title .tag-2 {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-item-wrapper .item-row-title .tag-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 21.33333vw
+}
+
+.match-item-wrapper .item-row-title .tag-3 > p {
+    line-height: 4.8vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 16vw;
+    padding-right: 1.06667vw
+}
+
+.match-item-wrapper .item-row-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 8vw;
+    padding: 0 2.66667vw
+}
+
+.match-item-wrapper .item-row-team img {
+    max-width: 4.8vw;
+    max-height: 4.8vw
+}
+
+.match-item-wrapper .item-row-team p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400
+}
+
+.match-item-wrapper .item-row-team .tag-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 37.33333vw
+}
+
+.match-item-wrapper .item-row-team .tag-1 > p {
+    margin-left: 1.06667vw;
+    color: #ccc
+}
+
+.match-item-wrapper .item-row-team .tag-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-item-wrapper .item-row-team .tag-2 p {
+    margin-left: 1.06667vw;
+    color: #ccc
+}
+
+.match-item-wrapper .item-row-team .tag-2 .score {
+    width: 10.66667vw;
+    padding-left: 1.06667vw;
+    text-align: left
+}
+
+.match-item-wrapper .item-row-team .tag-2 .kill {
+    width: 10.66667vw;
+    text-align: left
+}
+
+.match-item-wrapper .item-row-team .tag-2 .icon-panel {
+    padding-right: 5.33333vw;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.match-item-wrapper .item-row-team .tag-2 .icon-panel img {
+    max-width: 4.26667vw;
+    height: 4.26667vw
+}
+
+.match-item-wrapper .item-row-team .tag-2 .icon-panel:last-child {
+    padding-right: 0
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+.match-start-panel {
+    width: 100%;
+    height: auto
+}
+
+.match-start-panel .item {
+    margin-top: 1.6vw
+}
+
+.match-start-panel .item:first-child {
+    margin-top: 3.2vw
+}
+
+.match-start-panel .banner-panel {
+    margin: 2.66667vw 0
+}

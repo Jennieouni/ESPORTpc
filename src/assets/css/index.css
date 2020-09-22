@@ -1,0 +1,354 @@
+.home-wapper {
+    width:100%;
+    background-attachment:fixed;
+    background-size:100% auto;
+    background-color:#0f121e;
+    padding-top:24px;
+}
+
+.home-wapper .container {
+    display:flex;
+    width:1200px;
+    min-height:63.5vh;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    -webkit-box-pack:start;
+    -ms-flex-pack:start;
+    justify-content:flex-start;
+    -webkit-box-align:start;
+    -ms-flex-align:start;
+    align-items:flex-start;
+    -ms-flex-wrap:nowrap;
+    flex-wrap:nowrap;
+    text-align:center;
+    padding-bottom:16px;
+    margin:0 auto;
+}
+
+.home-wapper .container .home-container {
+    display:inline-flex;
+    -webkit-box-flex:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    width:auto;
+}
+
+.left-side-wapper {
+    display:inline-flex;
+    width:200px;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+}
+
+
+.left-banner {
+    width: 200px;
+    height: 150px;
+    border-radius: 4px;
+    margin-bottom: 10px
+}
+
+.league-panel {
+    width:100%;
+    background-color:#2d2c2b;
+    border-radius:4px;
+    margin-bottom:10px;
+    padding:10px 0;
+}
+
+.league-panel-title {
+    background-color:#232323;
+    display:flex;
+    -webkit-box-pack:start;
+    -ms-flex-pack:start;
+    justify-content:flex-start;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    height:33px;
+    font-size:12px;
+    text-align:left;
+    font-family:PingFangSC-Medium, PingFang SC;
+    font-weight:500;
+    color:#9a9a9a;
+    line-height:17px;
+}
+
+.league-panel-item {
+    display:flex;
+    -webkit-box-pack:start;
+    -ms-flex-pack:start;
+    justify-content:flex-start;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    padding-left:16px;
+    height:34px;
+    cursor:pointer;
+}
+
+.league-panel-item:hover {
+    font-weight:500;
+    background-color:rgba(255,104,0,.2);
+    color:#ffbf34;
+}
+
+.league-panel-item:hover > p {
+    color:#ffbf34;
+}
+
+.league-panel-item .tag-icon {
+    min-width:18px;
+    max-width:18px;
+    margin-right:11px;
+}
+
+.league-panel-item > p {
+    display:inline-block;
+    height:18px;
+    font-size:13px;
+    padding-right:10px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    font-family:PingFangSC-Regular, PingFang SC;
+    font-weight:400;
+    color:#ccc;
+    line-height:18px;
+}
+
+.match-type-panel-wrapper {
+    height:48px;
+    width:710px;
+    background-color:#2d2c2b;
+    border-radius:4px;
+    display:flex;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    margin:0 10px -5px;
+}
+
+.match-type-panel-wrapper .select-panel {
+    display:flex;
+}
+.match-type-panel-wrapper .select-panel img{
+  width: 18px;
+  height: 18px;
+}
+.match-type-panel-wrapper .select-panel,.match-type-panel-wrapper .type-item {
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+}
+
+.match-type-panel-wrapper .type-item {
+    display:flex;
+    width:88px;
+    max-width:88px;
+    height:18px;
+    border-right:1px solid hsla(0,0%,100%,.1);
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.match-type-panel-wrapper .type-item:first-child {
+    margin-left:12px;
+}
+
+.match-type-panel-wrapper .type-item:last-child {
+    border-right:none;
+}
+
+.match-type-panel-wrapper .type-item > a {
+    height:18px;
+    width:18px;
+}
+
+.match-type-panel-wrapper .type-item > p {
+    color:#9a9a9a;
+    display:inline-block;
+    text-align:center;
+    padding-left:4px;
+    font:400 12px/17px PingFangSC-Regular, PingFang SC;
+}
+
+.match-type-panel-wrapper .game-csgo:hover > div,.match-type-panel-wrapper .game-csgo > div,.match-type-panel-wrapper .game-dota:hover > div,.match-type-panel-wrapper .game-dota > div,.match-type-panel-wrapper .game-kog:hover > div,.match-type-panel-wrapper .game-kog > div,.match-type-panel-wrapper .game-lol:hover > div,.match-type-panel-wrapper .game-lol > div {
+    background-repeat:no-repeat;
+    background-position:50%;
+    background-size:18px;
+}
+
+.match-type-panel-wrapper .game-dota:hover > div,.match-type-panel-wrapper .game-dota > div {
+    background-image:url(/static/index/img/dota_sel_icon.png);
+}
+
+.match-type-panel-wrapper .game-lol:hover > div,.match-type-panel-wrapper .game-lol > div {
+    background-image:url(/static/index/img/lol_sel_icon.png);
+}
+
+.match-type-panel-wrapper .game-kog:hover > div,.match-type-panel-wrapper .game-kog > div {
+    background-image:url(/static/index/img/kog_sel_icon.png);
+}
+
+.match-type-panel-wrapper .game-csgo:hover > div,.match-type-panel-wrapper .game-csgo > div {
+    background-image:url(/static/index/img/csgo_sel_icon.png);
+}
+
+.match-type-panel-wrapper .time-panel {
+    display:flex;
+    -webkit-box-pack:end;
+    -ms-flex-pack:end;
+    justify-content:flex-end;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    margin-right:10px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.match-type-panel-wrapper .time-panel .date {
+    min-width:115px;
+}
+
+.match-type-panel-wrapper .time-panel  > p {
+    font:400 13px/18px PingFangSC-Regular, PingFang SC;
+    color:#9a9a9a;
+    padding:0 0 0 4px;
+}
+
+.match-type-panel-wrapper .time-panel  > img {
+    max-width:18px;
+    max-height:18px;
+}
+
+.match-type-panel-wrapper .time-panel  .next-tag {
+    padding:3px 5px;
+}
+
+.match-start-panel {
+    width:710px;
+    height:auto;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-left:10px;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    margin-bottom:24px;
+}
+
+.match-start-panel .item {
+    display: inline-block;
+    margin-top: 15px
+}
+
+.match-start-panel .item:nth-type-of(1),.match-start-panel .item:nth-type-of(2) {
+    margin-top:0;
+}
+
+.league-panel-title .line {
+    display:inline-block;
+    width:3px;
+    height:17px;
+    margin-right:13px;
+    background:#ffbf34;
+}
+
+.match-type-panel-wrapper .type-item:hover > p,.match-type-panel-wrapper .activeType > p {
+    color:#ffbf34;
+    font-weight:500;
+}
+
+.footer .container .map-contact-panel-item:nth-child(2) > a:hover,.footer .container .friend-links-item:hover {
+    color:#ffbd34;
+}
+
+.swiper-container {
+    height:268px;
+    width:710px;
+    overflow:hidden;
+    cursor:pointer;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    height:100%;
+    -o-object-fit:cover;
+    object-fit:cover;
+}
+
+.swiper-slide a {
+    height:100%;
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color:white;
+    opacity: 1;
+    z-index: 9999;
+    background: lightslategray;
+}
+.swiper-pagination-bullet-active {
+    color:#fff;
+    background: orange;
+}
+
+.banner-panel
+{
+    line-height: 1.15;
+    font-family: Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    word-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+

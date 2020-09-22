@@ -1,0 +1,196 @@
+.information-warpper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* height: 100%; */
+    width: 100%;
+    padding-top: 24px;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-color: #0f121e
+}
+
+.information-panel {
+    width: 1200px;
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 100%
+}
+
+.information-panel, .information-panel .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal
+}
+
+.information-panel .container {
+    width: 906px;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.information-panel .container .type-panel {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-color: #2d2c2b;
+    border-radius: 4px 4px 0 0;
+    min-height: 45px;
+    color: #fff
+}
+
+.information-panel .container .type-panel, .information-panel .container .type-panel .type-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.information-panel .container .type-panel .type-item {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100px;
+    height: 100%
+}
+
+.information-panel .container .type-panel .type-item > p {
+    width: 100px;
+    height: 18px;
+    color: #9a9a9a;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    line-height: 17px;
+    text-align: center;
+    border-right: 1px solid hsla(0, 0%, 100%, .1)
+}
+
+.information-panel .container .type-panel .activeType > p {
+    color: #ffbf34;
+    font-weight: 500
+}
+
+.information-panel .container .info-panel {
+    margin-top: 10px;
+    padding: 0 24px;
+    background-color: #2d2c2b;
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 20px
+}
+
+.information-panel .container .info-panel .info-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 168px;
+    padding: 24px 0;
+    border-bottom: 1px solid #232323;
+    cursor: pointer
+}
+
+.information-panel .container .info-panel .info-item .cover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 240px;
+    max-width: 240px;
+    min-width: 240px;
+    height: 120px
+}
+
+.information-panel .container .info-panel .info-item .cover > img {
+    width: 100%;
+    max-width: 240px;
+    max-height: 120px;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.information-panel .container .info-panel .info-item-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: 24px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.information-panel .container .info-panel .info-item-panel .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #ccc;
+    line-height: 28px
+}
+
+.information-panel .container .info-panel .info-item-desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.information-panel .container .info-panel .info-item-desc > p {
+    display: inline-block;
+    font-size: 13px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #9a9a9a;
+    line-height: 18px
+}
+
+.container a {
+    color: #9a9a9a;
+    text-decoration: none;
+}

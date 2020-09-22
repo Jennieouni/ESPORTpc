@@ -1,0 +1,621 @@
+.match-end-panel {
+    padding: 0 3.2vw;
+    background-color: #2d2c2b
+}
+
+.match-end-panel .match-item {
+    height: 24.26667vw;
+    border-bottom: .53333vw solid #232323
+}
+
+.match-end-panel .match-item:last-child {
+    border-bottom: none
+}
+
+.score-warpper {
+    width: 100%;
+    height: 100%
+}
+
+.score-warpper .score-list-panel {
+    width: 100%;
+    padding-top: .53333vw
+}
+
+.match-end-panel {
+    padding: 0 3.2vw;
+    background-color: #2d2c2b
+}
+
+.match-end-panel .match-item {
+    height: 24.26667vw;
+    border-bottom: .53333vw solid #232323
+}
+
+.match-end-panel .match-item:last-child {
+    border-bottom: none
+}
+
+.score-warpper {
+    width: 100%;
+    height: 100%
+}
+
+.score-warpper .score-list-panel {
+    width: 100%;
+    padding-top: .53333vw
+}
+.match-end-item {
+    width: 100%
+}
+
+.match-end-item .header {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 4.53333vw
+}
+
+.match-end-item .header .league, .match-end-item .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.match-end-item .header .league {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.match-end-item .header .league > img {
+    width: 4.8vw;
+    max-height: 4.8vw
+}
+
+.match-end-item .header .league > p {
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    max-width: 70vw;
+    padding-left: 1.6vw;
+    font-size: 3.2vw;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    line-height: 4.8vw
+}
+
+.match-end-item .header .bo > p, .match-end-item .header .league > p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ccc
+}
+
+.match-end-item .header .bo > p {
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    padding-right: .8vw;
+    font: 500 3.2vw/4.8vw PingFangSC-Medium, PingFang SC
+}
+
+.match-end-item .contianer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 13.33333vw
+}
+
+.match-end-item .contianer .time-panel {
+    overflow: hidden;
+    text-align: center;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    width: 20vw;
+    font: 500 3.2vw/5.33333vw PingFangSC-Medium, PingFang SC;
+    color: #ffbf34;
+    border-right: 1px solid hsla(0, 0%, 100%, .1)
+}
+
+.match-end-item .contianer .team-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-end-item .contianer .team-panel .team-logo {
+    max-height: 4.8vw;
+    width: 4.8vw;
+    max-width: 4.8vw
+}
+
+.match-end-item .contianer .team-panel .team-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    color: #fff;
+    font-weight: 500;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0 1.06667vw
+}
+
+.match-end-item .contianer .team-panel .score {
+    width: 14.66667vw
+}
+
+.match-end-item .contianer .team-panel .score > p {
+    width: 14.66667vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    text-align: center;
+    font: 400 4.26667vw/5.33333vw DIN-Medium, DIN;
+    color: #ccc
+}
+
+.match-end-item .contianer .team-panel .active > p {
+    font-weight: 500;
+    color: #ff6800
+}
+
+.match-end-item .contianer .team-panel .tag-panel {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 26.66667vw
+}
+
+.match-end-item .contianer .team-panel .homeTeam {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-end-item .contianer .team-panel .homeTeam .team-name {
+    text-align: right
+}
+
+.match-end-item .contianer .team-panel .awayTeam {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-end-item .contianer .team-panel .awayTeam .team-name {
+    text-align: left
+}
+
+.match-end-item {
+    width: 100%
+}
+
+.match-end-item .header {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 4.53333vw
+}
+
+.match-end-item .header .league, .match-end-item .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.match-end-item .header .league {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.match-end-item .header .league > img {
+    width: 4.8vw;
+    max-height: 4.8vw
+}
+
+.match-end-item .header .league > p {
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    max-width: 70vw;
+    padding-left: 1.6vw;
+    font-size: 3.2vw;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    line-height: 4.8vw
+}
+
+.match-end-item .header .bo > p, .match-end-item .header .league > p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ccc
+}
+
+.match-end-item .header .bo > p {
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    padding-right: .8vw;
+    font: 500 3.2vw/4.8vw PingFangSC-Medium, PingFang SC
+}
+
+.match-end-item .contianer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 13.33333vw
+}
+
+.match-end-item .contianer .time-panel {
+    overflow: hidden;
+    text-align: center;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    width: 21vw;
+    font: 500 3.2vw/5.33333vw PingFangSC-Medium, PingFang SC;
+    color: #ffbf34;
+    border-right: 1px solid hsla(0, 0%, 100%, .1)
+}
+
+.match-end-item .contianer .team-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-end-item .contianer .team-panel .team-logo {
+    max-height: 4.8vw;
+    width: 4.8vw;
+    max-width: 4.8vw
+}
+
+.match-end-item .contianer .team-panel .team-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    color: #fff;
+    font-weight: 500;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0 1.06667vw
+}
+
+.match-end-item .contianer .team-panel .score {
+    width: 14.66667vw
+}
+
+.match-end-item .contianer .team-panel .score > p {
+    width: 14.66667vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular, PingFang SC;
+    text-align: center;
+    font: 400 4.26667vw/5.33333vw DIN-Medium, DIN;
+    color: #ccc
+}
+
+.match-end-item .contianer .team-panel .active > p {
+    font-weight: 500;
+    color: #ff6800
+}
+
+.match-end-item .contianer .team-panel .tag-panel {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 26.66667vw
+}
+
+.match-end-item .contianer .team-panel .homeTeam {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-end-item .contianer .team-panel .homeTeam .team-name {
+    text-align: right
+}
+
+.match-end-item .contianer .team-panel .awayTeam {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-end-item .contianer .team-panel .awayTeam .team-name {
+    text-align: left
+}
+
+.match-type-panel-wrapper {
+    height: 12.8vw;
+    width: 100%;
+    background-color: #2d2c2b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.match-type-panel-wrapper .type-item, .match-type-panel-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.match-type-panel-wrapper .type-item {
+    display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.match-type-panel-wrapper .type-item:last-child > p {
+    border-right: none
+}
+
+.match-type-panel-wrapper .type-item:hover > p {
+    color: #ffbf34;
+    font-weight: 500
+}
+
+.match-type-panel-wrapper .type-item > p {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 4.8vw;
+    padding-left: 1.06667vw;
+    border-right: 1px solid hsla(0, 0%, 100%, .1);
+    font: 400 3.2vw/4.8vw PingFangSC-Regular, PingFang SC;
+    color: #9a9a9a
+}
+
+.match-type-panel-wrapper .activeType > p {
+    color: #ffbf34;
+    font-weight: 500
+}
+
+.match-type-panel-wrapper .activeType .line {
+    position: relative;
+    top: 2.66667vw;
+    width: 98%;
+    border-bottom: .53333vw solid #ffbf34
+}
+
+.calender-warpper {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 11.73333vw;
+}
+
+.calender-warpper .calender-panel{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #232323;
+    height: 100%;
+    cursor: pointer;
+    min-width: 33.06667vw;
+    width: 33.06667vw;
+}
+
+.schedule-warpper .canlender-panel
+{
+    padding-top: .53333vw;
+    background-color: #232323;
+    border-bottom: 1px solid #232323;
+}
+
+.calender-warpper .calender-panel, .calender-warpper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.calender-warpper .calender-panel .rili-icon {
+    max-height: 5.33333vw;
+    width: 5.33333vw;
+}
+
+.calender-warpper .calender-panel>p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 3.2vw/4.53333vw PingFangSC-Regular,PingFang SC;
+    padding: 0 1.06667vw;
+    color: #9a9a9a;
+}
+
+.calender-warpper .calender-panel .up-low-icon {
+    width: 4.26667vw;
+    padding: 0 1px;
+    max-width: 4.26667vw;
+    max-height: 4.26667vw;
+}
+
+.calender-warpper .date-panel {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #2d2c2b;
+    height: 100%;
+}
+
+.calender-warpper .date-panel>img{
+    cursor: pointer;
+    max-width: 4.26667vw;
+    max-height: 4.26667vw;
+    padding: 0 .53333vw;
+    width: 4.26667vw;
+}
+
+
+.calender-warpper .date-panel>p {
+    color: #9a9a9a;
+    cursor: pointer;
+    padding: 0 4.26667vw;
+}
+
+.calender-warpper .date-panel>img {
+    cursor: pointer;
+    max-width: 4.26667vw;
+    max-height: 4.26667vw;
+    padding: 0 .53333vw;
+    width: 4.26667vw;
+}

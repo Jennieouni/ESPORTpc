@@ -1,0 +1,485 @@
+.match-item-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 350px;
+    height: 128px;
+    border-radius: 4px;
+    background-color: #2d2c2b
+}
+
+.match-item-wrapper .header {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 29px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #232323
+}
+
+.match-item-wrapper .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.match-item-wrapper .header .item-league-panel {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+}
+
+.match-item-wrapper .header .logo {
+    max-width: 18px;
+    max-height: 18px;
+    margin-left: 10px;
+    margin-right: 4px;
+    cursor: pointer
+}
+
+.match-item-wrapper .header .name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #9a9a9a;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    cursor: pointer
+}
+
+.match-item-wrapper .item-row-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 33px;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.match-item-wrapper .item-row-title img {
+    max-width: 18px;
+    max-height: 18px
+}
+
+.match-item-wrapper .item-row-title p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    /* width: 100%; */
+    padding-right: 10px;
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    color: #fff
+}
+
+.match-item-wrapper .item-row-title .tag-1 {
+    min-width: 140px
+}
+
+.match-item-wrapper .item-row-title .tag-1 .duration {
+    display: inline-block;
+    padding-left: 2px
+}
+
+.match-item-wrapper .item-row-title .tag-1 .duration:after {
+    content: "'";
+    font-size: 14px;
+    /* margin-left: 2px; */
+    color: #ffbf34;
+    -webkit-animation: ongoing-blink 1s linear infinite;
+    animation: ongoing-blink 1s linear infinite
+}
+
+.match-item-wrapper .item-row-title .tag-2 {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-item-wrapper .item-row-title .tag-3 {
+    width: 80px
+}
+
+.match-item-wrapper .item-row-title .tag-3>p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* width: 60px; */
+    padding-right: 4px
+}
+
+.match-item-wrapper .item-row-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    padding: 0 10px
+}
+
+.match-item-wrapper .item-row-team img {
+    max-width: 18px;
+    max-height: 18px
+}
+
+.match-item-wrapper .item-row-team p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400
+}
+
+.match-item-wrapper .item-row-team .tag-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 140px
+}
+
+.match-item-wrapper .item-row-team .tag-1>p {
+    margin-left: 4px;
+    color: #ccc
+}
+
+.match-item-wrapper .item-row-team .tag-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.match-item-wrapper .item-row-team .tag-2 p {
+    margin-left: 4px;
+    color: #ccc
+}
+
+.match-item-wrapper .item-row-team .tag-2 .score {
+    width: 40px;
+    padding-left: 4px;
+    text-align: left
+}
+
+.match-item-wrapper .item-row-team .tag-2 .kill {
+    width: 40px;
+    text-align: left
+}
+
+.match-item-wrapper .item-row-team .tag-2 .icon-panel {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-right: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 16px
+}
+
+.match-item-wrapper .item-row-team .tag-2 .icon-panel img {
+    height: 16px;
+    max-width: 16px
+}
+
+.match-item-wrapper .item-row-team .tag-2 .icon-panel .first-kill {
+    width: 14px
+}
+
+.match-item-wrapper .item-row-team .tag-2 .icon-panel:last-child {
+    padding-right: 0
+}
+
+.videos-panel {
+    padding-right: 10px;
+    cursor: pointer;
+    position: relative
+}
+
+.videos-panel:before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 0
+}
+
+.videos-panel .live-list {
+    width: 96px;
+    display: none;
+    position: absolute;
+    right: -56px;
+    padding: 0;
+    top: 0;
+    z-index: 9;
+    margin-top: 25px;
+    background: #000;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12);
+    border: 1px solid #2d2c2b;
+    border-radius: 4px
+}
+
+.videos-panel .live-list .live-item {
+    cursor: pointer;
+    text-align: center;
+    z-index: 8;
+    text-decoration: none;
+    color: #fff;
+    height: 42px;
+    display: block;
+    font-size: 13px;
+    line-height: 42px;
+    width: 96px;
+    border-bottom: 1px solid #2d2c2b
+}
+
+.videos-panel .live-list .live-item>a:last-child {
+    border: none
+}
+
+.videos-panel .live-list .live-item>a>span:hover {
+    color: #ffbf34;
+    opacity: .98
+}
+
+.videos-panel .live-list .live-item>a {
+    display: block;
+    width: 96px;
+}
+
+.videos-panel:hover .live-list {
+    display: block
+}
+
+.match-wrapper {
+    margin: 0 10px;
+    background-color: #232323;
+    border-radius: 4px;
+    width: 710px
+}
+
+.match-wrapper .container {
+    display: contents;
+    padding: 0;
+    background-color: #2d2c2b;
+    min-height: 195px
+}
+
+.match-wrapper .container .match-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-left: 32px;
+    height: 54px;
+    border-bottom: 1px solid #232323
+}
+
+.match-wrapper .container .match-item .home-team {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.match-wrapper .container .match-item .away-team,
+.match-wrapper .container .match-item .home-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 150px
+}
+
+.match-wrapper .container .match-item .away-team,
+.match-wrapper .container .match-item .league {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.match-wrapper .container .match-item .league {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 180px
+}
+
+.match-wrapper .container .match-item .league * {
+    cursor: pointer
+}
+
+.match-wrapper .container .match-item p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    color: #ccc;
+    font-weight: 500
+}
+
+.match-wrapper .container .match-item img {
+    max-width: 18px;
+    max-height: 18px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0 3px
+}
+
+.match-wrapper .container .match-item-time {
+    margin-left: 19px
+}
+
+.match-wrapper .container .match-item-bo {
+    margin-left: 32px
+}
+
+.match-wrapper .container .match-item-home-name {
+    margin-left: 10px;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.match-wrapper .container .match-item-tag {
+    width: 15px;
+    margin: 0 18px
+}
+
+.match-wrapper .container .match-item-away-name {
+    text-align: left;
+    margin-right: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.match-wrapper .container .match-item-league-name {
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.match-panel-wrapper {
+    background-color: #232323;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px
+}
+
+.match-panel-wrapper .match-panel-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px
+}
+
+/* .match-panel-wrapper .match-panel-container>img {
+    width: 137px;
+    height: 16px
+} */
+
+.match-panel-wrapper .match-panel-container>p {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin: 0 8px;
+    line-height: 17px
+}
+
+.wait-ad-banner {
+    line-height: 1.15;
+    font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    font-size: 16px;
+    word-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    width: 710px!important;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    height: auto;
+    overflow: hidden;
+}

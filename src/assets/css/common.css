@@ -1,0 +1,588 @@
+@-webkit-keyframes ongoing-blink {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 1
+    }
+    to {
+        opacity: 0
+    }
+}
+
+H1,
+H2,
+H3,
+p {
+    margin: 0;
+    font-family: PingFangSC-Medium, PingFang SC
+}
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+html {
+    font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    height: 100%;
+}
+
+*,
+ :after,
+ :before,
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*,
+ :after,
+ :before {
+    margin: 0
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.default-continer {
+    width: 100%;
+    min-width: 100vh;
+    margin-top: 64px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+p {
+    margin: 0;
+    font-family: PingFangSC-Medium, PingFang SC
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+a {
+    background-color: transparent
+}
+
+img {
+    border-style: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+@font-face {
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts-gstatic.proxy.ustclug.org/s/materialicons/v45/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2")
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1200px;
+    width: 100%;
+    height: 64px;
+    z-index: 99;
+    background-color: #232323;
+    color: #9a9a9a
+}
+
+.navbar-container {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.navbar .icon_logo {
+    height: 48px;
+    width: 199px
+}
+
+.navbar .nav-panel {
+    position: relative
+}
+
+.navbar .nav-panel a {
+    color: #9a9a9a;
+    display: inline-block;
+    min-width: 66px;
+    height: 64px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 64px;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.navbar .nav-panel li {
+    cursor: pointer;
+    float: left;
+}
+
+.navbar .nav-panel a:hover {
+    color: #ffbd34;
+    border-bottom: 2px solid #ffbd34
+}
+
+.navbar .nav-panel p {
+    display: inline-block;
+    height: 18px;
+    margin: 0 16px;
+    vertical-align: middle;
+    width: 1px;
+    background-color: #2f2f2f
+}
+
+.navbar .nav-panel .isActive {
+    color: #ffbd34;
+    border-bottom: 2px solid #ffbd34
+}
+
+.navbar .collection-panel {
+    width: 119px;
+    height: 40px;
+    border-radius: 20px;
+    padding-right: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: #999
+}
+
+.navbar .collection-panel:hover {
+    color: #ffbd34
+}
+
+.navbar .collection-panel img {
+    width: 18px;
+    height: 18px
+}
+
+.navbar .collection-panel p {
+    margin: 0 0 0 6px;
+    line-height: normal
+}
+
+.seo-logo-warpper {
+    position: fixed;
+    top: 2000px;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.right-side-warpper {
+    display: inline-flex;
+    width: 270px;
+    border-radius: 4px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.right-side-warpper .match-panel {
+    width: 100%;
+    background-color: #2d2c2b;
+    border-radius: 4px;
+    padding: 10px 0;
+}
+
+.right-side-warpper .match-panel-title {
+    background-color: #232323;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 33px;
+    font-size: 12px;
+    text-align: left;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #9a9a9a;
+    line-height: 17px;
+}
+
+.right-side-warpper .match-panel-title .line {
+    display: inline-block;
+    width: 3px;
+    height: 17px;
+    margin-right: 13px;
+    background: #ffbf34;
+}
+
+.right-side-warpper .match-panel-title .title {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 100;
+}
+
+.right-side-warpper .match-panel-title .right-panel {
+    display: inline-flex;
+    justify-items: center;
+    height: 18px;
+    cursor: pointer;
+    padding: 0 10px 0 0;
+}
+
+.right-side-warpper .match-panel-title .right-panel .more {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #9a9a9a;
+}
+
+.right-side-warpper .match-panel-title .right-panel>img {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 18px;
+    width: 18px;
+    padding: 3px 3px 3px 7px;
+}
+
+.right-side-warpper .match-panel-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 0 10px;
+    border-bottom: 1px solid #232323
+}
+
+.right-side-warpper .match-panel-item p {
+    color: #ccc;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.right-side-warpper .match-panel-item .item-type-icon {
+    max-width: 18px;
+    max-height: 18px
+}
+
+.right-side-warpper .match-panel-item .item-team {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden
+}
+
+.right-side-warpper .match-panel-item .item-team-home {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-left: 8px;
+    text-align: left;
+    margin-right: 4px
+}
+
+.right-side-warpper .match-panel-item .item-team-home>p {
+    min-width: 75px
+}
+
+.right-side-warpper .match-panel-item .item-team-away {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-right: 8px;
+    padding-left: 2px;
+    text-align: left;
+    margin-left: 4px
+}
+
+.right-side-warpper .match-panel-item .item-score {
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    white-space: nowrap;
+    color: #ccc
+}
+
+.right-side-warpper .match-panel-item .item-match-time {
+    width: 34px;
+    margin-right: 10px
+}
+
+.right-side-warpper .match-panel-item .item-team-name {
+    min-width: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.right-side-warpper .match-panel-item .item-team-logo {
+    max-width: 18px;
+    max-height: 18px
+}
+
+.right-side-warpper .right-banner {
+    width: 270px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 4px
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: #2d2c2b;
+    min-width: 1200px;
+    width: 100%;
+}
+
+.footer .container {
+    width: 100%;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.footer .container .map-contact {
+    border-bottom: 1px solid #232323;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFangSC;
+    font-weight: 400;
+}
+
+.footer .container .map-contact-panel {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 120px;
+    width: 1138px;
+    margin: 0 auto;
+}
+
+.footer .container .map-contact-panel-line {
+    width: 1px;
+    height: 60px;
+    background: #232323;
+    margin: 0 70px;
+}
+
+.footer .container .map-contact-panel-item {
+    height: 55px;
+}
+
+.footer .container .map-contact-panel-item:nth-child(2) {
+    width: 406px;
+}
+
+.footer .container .map-contact-panel-item:nth-child(2)>a:nth-child(4) {
+    min-width: 56px;
+}
+
+.footer .container .map-contact-panel-item:nth-child(2)>a:nth-child(n+4) {
+    margin-top: 15px;
+}
+
+.footer .container .map-contact-panel-item:first-child {
+    margin-left: 6px;
+}
+
+.footer .container .map-contact-panel-item:last-child {
+    width: 425px;
+}
+
+.footer .container .map-contact-panel-item>a {
+    display: inline-block;
+    text-decoration: none;
+    color: #999;
+    line-height: 20px;
+    margin-left: 70px;
+}
+
+.footer .container .map-contact-panel-item>.icon-contact,
+.footer .container .map-contact-panel-item>.icon-map {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    margin-right: 2px;
+}
+
+.footer .container .map-contact-panel-item>span {
+    color: #9a9a9a;
+    line-height: 20px;
+}
+
+.footer .container .friend-links {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #232323;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 30px 4%;
+}
+
+.footer .container .friend-links .links-wrapper {
+    width: 1200px;
+}
+
+.footer .container .friend-links-item {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: #9a9a9a;
+    font-family: PingFangSC-Regular;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.footer .copy-right {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    background-color: #232323;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 70px;
+    padding-top: 5px;
+}
+
+.footer .copy-right>p {
+    width: 100%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    line-height: 20px;
+    color: #9a9a9a;
+    font-weight: 400;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.m-top-10 {
+    margin-top: 10px;
+}
+
+.title-ad-tag {
+    word-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    font-family: PingFangSC-Medium, PingFang SC;
+    position: absolute;
+    width: 30px!important;
+    text-align: center;
+    line-height: 16px;
+    top: 10px;
+    right: -42px;
+    font-size: 12px!important;
+    transform: scale(.7);
+    font-weight: 400;
+    color: #999;
+    background-color: transparent!important;
+    display: inline-block;
+    height: 18px;
+    margin: 0 16px;
+    vertical-align: middle;
+}
+
+.live-item a {
+    text-decoration: none;
+}
+
+.live-item span {
+    color: white;
+}

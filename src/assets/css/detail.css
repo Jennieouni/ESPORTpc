@@ -1,0 +1,502 @@
+.banner-tag {
+    position: absolute;
+    width: 30px !important;
+    text-align: center;
+    line-height: 16px;
+    top: 10px;
+    right: -42px;
+    font-size: 12px !important;
+    -webkit-transform: scale(.7);
+    transform: scale(.7);
+    font-weight: 400;
+    color: #999;
+    background-color: transparent !important
+}
+
+.detail-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 24px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-size: 100% auto;
+    background-attachment: fixed
+}
+
+.detail-wrapper .detail-container {
+    width: 1200px;
+    margin-top: 24px
+}
+
+.detail-header {
+    width: 1200px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 152px;
+    background-color: #2d2c2b
+}
+
+.detail-header, .detail-header .league-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.detail-header .league-logo {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 168px;
+    height: 104px;
+    border-right: 1px solid hsla(0, 0%, 100%, .1)
+}
+
+.detail-header .league-logo > img {
+    margin: 0 auto;
+    max-width: 100px;
+    min-width: 100px;
+    width: 100%;
+    min-height: 58px;
+    height: auto
+}
+
+.detail-header .league-content {
+    margin-left: 40px
+}
+
+.detail-header .league-content .title h3 {
+    font: 500 22px/30px PingFangSC-Medium, PingFang SC;
+    color: #fff
+}
+
+.detail-header .league-content .league-info {
+    margin-top: 25px
+}
+
+.detail-header .league-content .league-info img {
+    height: 32px;
+    width: 32px
+}
+
+.detail-header .league-content .league-info p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    color: #fff
+}
+
+.detail-header .league-info, .detail-header .league-info .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.detail-header .league-info .item {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.detail-header .league-info .item .text-panel {
+    margin-left: 12px;
+    width: 140px;
+    padding-right: 10px
+}
+
+.detail-header .league-info .match-time {
+    min-width: 280px
+}
+
+.detail-header .league-info .match-time .text-panel {
+    width: 230px
+}
+
+.match-panel-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-color: #2d2c2b;
+    border-radius: 0 0 4px 4px;
+    min-height: 400px;
+    padding: 20px 0 40px;
+    margin-bottom: 40px
+}
+
+.match-panel-container .match-table-header {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 3fr 2fr;
+    width: 1160px;
+    height: 29px;
+    background-color: rgba(255, 191, 52, .2);
+    border-radius: 4px 4px 0 0
+}
+
+.match-panel-container .match-table-header > p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    line-height: 29px;
+    text-align: center;
+    color: #fff
+}
+
+.match-panel-container .match-table-item {
+    width: 1160px
+}
+
+.match-panel-wrapper {
+    background-color: #232323;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px
+}
+
+.match-panel-wrapper .match-panel-container-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px
+}
+
+/* .match-panel-wrapper .match-panel-container-title > img {
+    width: 137px;
+    height: 16px
+} */
+
+.match-panel-wrapper .match-panel-container-title > p {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin: 0 8px;
+    line-height: 17px
+}
+
+.match-panel-item {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 3fr 2fr;
+    grid-gap: 1px;
+    border-bottom: 1px solid #2d2c2b;
+    height: 47px;
+    width: 100%
+}
+
+.match-panel-item:last-child {
+    border-bottom: none
+}
+
+.match-panel-item * {
+    background-color: #232323
+}
+
+.match-panel-item p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    color: #fff;
+    height: 100%;
+    line-height: 46px;
+    text-align: center
+}
+
+.match-panel-item .score {
+    font: 500 18px/46px DIN-Medium, DIN;
+    color: #ff6800
+}
+
+.match-panel-item .score-wait {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    font: 400 14px/46px DIN-Medium, DIN;
+    color: #fff
+}
+
+.match-panel-item .team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-left: 10%
+}
+
+.match-panel-item .team > img {
+    max-width: 18px;
+    max-height: 18px
+}
+
+.match-panel-item .team > p {
+    margin-left: 8px;
+    padding-right: 20px
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+@font-face {
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts-gstatic.proxy.ustclug.org/s/materialicons/v45/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2")
+}
+
+.league-group-rank {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.league-group-rank .container {
+    padding: 0;
+    width: 100%;
+    background-color: #2d2c2b
+}
+
+.league-group-rank .league-info-panel {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 0 20px
+}
+
+.league-group-rank .league-info-panel, .league-group-rank .stage-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.league-group-rank .stage-panel {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 48px;
+    border-bottom: 1px solid #232323
+}
+
+.league-group-rank .group-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 10px 20px
+}
+
+.match-progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-color: #2d2c2b;
+    width: 760px;
+    height: 300px
+}
+
+.match-progress .title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    color: #fff;
+    padding: 12px 0
+}
+
+.match-progress .match-table {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 3fr 2fr
+}
+
+.match-progress .match-table-header {
+    width: 100%;
+    height: 29px;
+    background-color: #ffbf34;
+    border-radius: 4px 4px 0 0
+}
+
+.match-progress .match-table-header > p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 29px
+}
+
+.rank-integral {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 380px
+}
+
+.rank-integral .title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    color: #fff;
+    padding: 12px 0
+}
+
+.rank-integral .rank-table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr 2fr 2fr
+}
+
+.rank-integral .rank-table-header {
+    width: 100%;
+    height: 29px;
+    background-color: #ffbf34;
+    border-radius: 4px 4px 0 0
+}
+
+.rank-integral .rank-table-header > p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 29px
+}

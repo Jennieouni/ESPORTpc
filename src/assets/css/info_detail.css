@@ -1,0 +1,351 @@
+
+.info-detail-warpper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 24px 0 148px;
+    background-color: #0f121e;
+    background-size: 100% auto;
+    background-attachment: fixed
+}
+
+.article-detail {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 1200px
+}
+
+.article-detail, .article-detail .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal
+}
+
+.article-detail .container {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 806px;
+    background: #2d2c2b;
+    border-radius: 4px;
+    padding: 16px 24px 20px;
+    margin-bottom: 20px;
+}
+
+.article-detail .container .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.article-detail .container .header > p {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #9a9a9a;
+    line-height: 17px
+}
+
+.article-detail .container .header .icon-copy {
+    cursor: pointer;
+    width: 88px;
+    height: 28px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 4px;
+    opacity: .5;
+    border: 1px solid #979797;
+    background-color: #232323;
+    color:#9a9a9a ;
+}
+
+.article-detail .container .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 10px
+}
+
+.article-detail .container .content, .article-detail .container .content .cover-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.article-detail .container .content .cover-img {
+    max-height: 360px;
+    width: 720px;
+    overflow: hidden
+}
+
+.article-detail .container .content .cover-img > img {
+    width: 720px;
+    max-width: 720px;
+    max-height: 360;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.article-detail .container .content .title {
+    padding-top: 32px;
+    font-size: 24px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #ccc;
+    line-height: 33px
+}
+
+.article-detail .container .content .desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 24px
+}
+
+.article-detail .container .content .desc > p {
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #9a9a9a;
+    line-height: 20px;
+    padding: 0 12px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.article-detail .main-body {
+    margin-top: 24px;
+    padding: 20px 0 0;
+    font-family: PingFangSC-Light, PingFangSC;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    word-break: break-all;
+    border-top: 1px solid #232323;
+    color: #ccc
+}
+
+.article-detail .main-body .content {
+    float: none;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    padding: 0
+}
+
+.article-detail .main-body ol, .article-detail .main-body p, .article-detail .main-body ul {
+    margin-bottom: 35px
+}
+
+.article-detail .main-body pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word
+}
+
+.article-detail .main-body blockquote {
+    margin: 35px 0;
+    font-size: 14px;
+    color: #ccc;
+    border-left: 2px solid #bebebe;
+    padding: 0 0 0 10px;
+    line-height: 20px
+}
+
+.article-detail .main-body blockquote p {
+    color: #ccc;
+    margin: 0
+}
+
+.article-detail .main-body blockquote p + p {
+    color: #ccc;
+    margin-top: 35px
+}
+
+.article-detail .main-body h1, .article-detail .main-body h2, .article-detail .main-body h3, .article-detail .main-body h4, .article-detail .main-body h5, .article-detail .main-body h6 {
+    margin: 30px 0
+}
+
+.article-detail .main-body .MsoNormal {
+    font-size: 16px;
+    line-height: 28px !important
+}
+
+.article-detail .main-body img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 32px 0 4px
+}
+
+.article-detail .right-panel {
+    height: 100px;
+    width: 370px;
+    background: #2d2c2b;
+    border-radius: 4px
+}
+
+.declaration {
+    width: 100%;
+    font-size: 14px;
+    padding-top: 30px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #9a9a9a;
+    line-height: 28px
+}
+
+.declaration > p {
+    display: inline-block
+}
+
+.declaration .desc-link {
+    color: #ffbf34;
+    text-decoration: none
+}
+
+.right-side-warpper .info-panel {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #2d2c2b;
+    border-radius: 4px
+}
+
+
+.right-side-warpper .info-panel-title {
+    background-color: #232323;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 33px;
+    font-size: 12px;
+    text-align: left;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #9a9a9a;
+    line-height: 17px
+}
+
+.right-side-warpper .info-panel-title .line {
+    display: inline-block;
+    width: 3px;
+    height: 17px;
+    margin-right: 13px;
+    background: #ffbf34
+}
+
+.right-side-warpper .info-panel-item {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 10px;
+    border-bottom: 1px solid #232323;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    cursor: pointer
+}
+
+.right-side-warpper .info-panel-item p {
+    color: #ccc;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.right-side-warpper .info-panel-item:hover p{
+  color: #ffbf34;
+  /* background-color: rgba(255,104,0,.2); */
+}
+.right-side-warpper .info-panel-item:hover{
+  /* color: #ffbf34; */
+  background-color: rgba(255,104,0,.2);
+}
+
+.right-side-warpper .info-panel-item .index {
+    height: 19px;
+    width: 19px;
+    min-width: 19px;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 9px;
+    background: #232323
+}
+
+.right-side-warpper .info-panel-item .title {
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    max-width: 320px;
+    overflow: hidden;
+    padding-left: 10px;
+    /* color: #ccc; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 20px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    cursor: pointer
+}
+
+a {
+    color: #9a9a9a;
+    text-decoration: none;
+}

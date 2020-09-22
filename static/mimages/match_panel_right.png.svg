@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="32px" viewBox="0 0 133 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>titleset-right R@2x.png</title>
+    <defs>
+        <polygon id="path-1" points="-8.76729245e-15 0 133 3.33066907e-16 133 32 -8.76729245e-15 32"></polygon>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-首页1366" transform="translate(-704.000000, -1034.000000)">
+            <g id="即将开始的比赛-编组" transform="translate(294.000000, 1023.000000)">
+                <g id="titleset-right-R@2x.png" transform="translate(476.500000, 27.000000) scale(-1, 1) translate(-476.500000, -27.000000) translate(410.000000, 11.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <g id="科技外框" mask="url(#mask-2)">
+                        <g transform="translate(3.250000, 15.750000) scale(-1, -1) translate(-3.250000, -15.750000) translate(-126.000000, 10.000000)">
+                            <g id="点" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(8.000000, 0.000000)">
+                                <ellipse id="椭圆形" fill="#E45424" cx="61.2708082" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形" fill="#E45424" cx="58.0460288" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形" fill="#E45424" cx="54.8212494" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份" fill="#E45424" cx="51.59647" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-2" fill="#E45424" cx="48.3716907" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-3" fill="#E45424" cx="45.1469113" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-4" fill="#E45424" cx="41.9221319" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-5" fill="#E45424" cx="38.6973525" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-6" fill="#E45424" cx="35.4725731" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-7" fill="#E45424" cx="32.2477938" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-8" fill="#E45424" cx="29.8292092" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形" fill="#E45424" cx="26.6044299" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份" fill="#E45424" cx="23.3796505" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-2" fill="#E45424" cx="20.1548711" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-3" fill="#E45424" cx="16.9300917" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-4" fill="#E45424" cx="13.7053124" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-5" fill="#E45424" cx="10.480533" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-6" fill="#E45424" cx="7.2557536" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-7" fill="#E45424" cx="4.03097422" cy="0.664921466" rx="1" ry="1"></ellipse>
+                                <ellipse id="椭圆形备份-8" fill="#E45424" cx="0.806194844" cy="0.664921466" rx="1" ry="1"></ellipse>
+                            </g>
+                            <polygon id="矩形" stroke="none" fill="#BE2127" fill-rule="evenodd" points="65 3.5 73.6113465 3.5 77 7 68.3886535 7"></polygon>
+                            <polygon id="矩形" stroke="none" fill="#BE2127" fill-rule="evenodd" points="55.5 3.5 64.1113465 3.5 67.5 7 58.8886535 7"></polygon>
+                            <polygon id="矩形" stroke="none" fill="#BE2127" fill-rule="evenodd" points="45.5 4 54.1843994 4 58.5 8.5 49.8156006 8.5"></polygon>
+                            <polygon id="矩形" stroke="none" fill="#BE2127" fill-rule="evenodd" points="-1.42542228e-14 4 44.1021511 4 49.5 9.5 6.39784889 9.5"></polygon>
+                            <polyline id="路径-2" stroke="#BE2127" stroke-width="1" fill="none" points="258.5 11.5 142.397349 11.5 135.71884 5 78.0077232 5 82.6445547 9.28699468 60.5 9.28699468"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

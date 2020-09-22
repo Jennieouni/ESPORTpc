@@ -1,0 +1,460 @@
+.score-warpper {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100%;
+    /* height: 100%; */
+    padding-top: 24px;
+    background-color: #0f121e
+}
+
+.score-warpper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal
+}
+
+.score-warpper .score-list-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px
+}
+
+.select-warpper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    height: 97px;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 0 0;
+    background-color: #2d2c2b;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.select-warpper,
+.select-warpper .select-panel {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+.select-warpper .select-panel img{
+  width: 18px;
+  height: 18px;
+}
+.select-warpper .select-panel {
+    display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.select-warpper .btn-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.select-warpper .btn-panel .btn {
+    color: #9a9a9a
+}
+
+.select-warpper .type-item {
+    display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 88px;
+    max-width: 88px;
+    height: 18px;
+    cursor: pointer;
+    border-right: 1px solid hsla(0, 0%, 100%, .1);
+    text-decoration: none;
+}
+
+.select-warpper .type-item:first-child {
+    margin-left: 12px
+}
+
+.select-warpper .type-item:last-child {
+    border-right: none
+}
+
+.select-warpper .type-item:hover>p {
+    color: #ffbf34;
+    font-weight: 500
+}
+
+.select-warpper .type-item>div {
+    height: 18px;
+    width: 18px
+}
+
+.select-warpper .type-item>p {
+    display: inline-block;
+    text-align: center;
+    padding-left: 4px;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    color: #9a9a9a
+}
+
+.select-warpper .activeType>p {
+    color: #ffbf34;
+    font-weight: 500
+}
+
+.select-warpper .game-csgo:hover>div,
+.select-warpper .game-csgo>div,
+.select-warpper .game-dota:hover>div,
+.select-warpper .game-dota>div,
+.select-warpper .game-kog:hover>div,
+.select-warpper .game-kog>div,
+.select-warpper .game-lol:hover>div,
+.select-warpper .game-lol>div {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 18px
+}
+
+.select-warpper .game-dota:hover>div,
+.select-warpper .game-dota>div {
+    background-image: url(/static/index/img/dota_sel_icon.png)
+}
+
+.select-warpper .game-lol:hover>div,
+.select-warpper .game-lol>div {
+    background-image: url(/static/index/img/lol_sel_icon.png)
+}
+
+.select-warpper .game-kog:hover>div,
+.select-warpper .game-kog>div {
+    background-image: url(/static/index/img/kog_sel_icon.png)
+}
+
+.select-warpper .game-csgo:hover>div,
+.select-warpper .game-csgo>div {
+    background-image: url(/static/index/img/csgo_sel_icon.png)
+}
+
+.select-warpper .btn-panel {
+    padding-left: 32px;
+    padding-top: 22px
+}
+
+.select-warpper .btn-panel .btn {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    width: 88px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: transparent !important;
+    border: 1px solid #979797;
+    opacity: .5;
+    text-decoration: none;
+}
+
+.select-warpper .btn-panel .btn:hover {
+    border: none;
+    color: #fff;
+    background: #ff6800 !important
+}
+
+.select-warpper .btn-panel .btn:nth-child(2) {
+    margin-left: 12px
+}
+
+.select-warpper .btn-panel .active {
+    border: none;
+    color: #fff;
+    background: #ff6800 !important
+}
+
+.match-wait-panel-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto 26px;
+    width: 1200px
+}
+
+.match-wait-panel-wrapper .container {
+    max-width: 100%;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-color: #2d2c2b;
+    margin: 0;
+    padding: 0 0 0 32px
+}
+
+.match-wait-panel-wrapper .container,
+.match-wait-panel-wrapper .container .match-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.match-wait-panel-wrapper .container .match-item {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 54px;
+    border-bottom: 1px solid #232323
+}
+
+.match-wait-panel-wrapper .container .match-item img {
+    max-width: 18px;
+    max-height: 18px
+}
+
+.match-wait-panel-wrapper .container .match-item p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    text-align: right;
+    font-weight: 500;
+    color: #ccc
+}
+
+.match-wait-panel-wrapper .container .match-item-time {
+    width: 80px;
+    color: #ffbf34
+}
+
+.match-wait-panel-wrapper .container .match-item-bo {
+    color: #ccc;
+    width: 80px
+}
+
+.match-wait-panel-wrapper .container .match-item-tag {
+    text-align: center !important;
+    width: 50px
+}
+
+.match-wait-panel-wrapper .home-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 236px
+}
+
+.match-wait-panel-wrapper .home-team .name {
+    width: 212px
+}
+
+.match-wait-panel-wrapper .home-team .logo {
+    max-width: 18px;
+    max-height: 18px;
+    margin-left: 4px
+}
+
+.match-wait-panel-wrapper .away-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 236px
+}
+
+.match-wait-panel-wrapper .away-team .name {
+    width: 212px;
+    text-align: left !important
+}
+
+.match-wait-panel-wrapper .away-team .logo {
+    max-width: 18px;
+    max-height: 18px;
+    margin-right: 4px
+}
+
+.match-wait-panel-wrapper .leagues {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    max-width: 342px;
+    min-width: 342px;
+    padding-left: 60px
+}
+
+.match-wait-panel-wrapper .leagues .name {
+    cursor: pointer;
+    min-width: 240px;
+    text-align: left !important
+}
+
+.match-wait-panel-wrapper .leagues .logo {
+    cursor: pointer;
+    max-width: 18px;
+    max-height: 18px;
+    margin-right: 4px
+}
+
+.match-wait-panel-wrapper .odd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 18px
+}
+
+.match-panel-wrapper {
+    background-color: #232323;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px
+}
+
+.match-panel-wrapper .match-panel-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px
+}
+
+/* .match-panel-wrapper .match-panel-container>img {
+    width: 137px;
+    height: 16px
+} */
+
+.match-panel-wrapper .match-panel-container>p {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin: 0 8px;
+    line-height: 17px
+}
+
+.match-item-score {
+    word-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    margin: 0;
+    color: #ff6800!important;
+    font: 500 18px/22px DIN-Medium, DIN!important;
+    text-align: center!important;
+    width: 67px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

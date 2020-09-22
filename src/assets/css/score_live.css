@@ -1,0 +1,600 @@
+.live-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 103px;
+    width: 100%;
+    background-color: #232323;
+    border-radius: 4px;
+}
+
+.live-item img {
+    max-width: 18px;
+    max-height: 18px
+}
+
+.live-item .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 10px 0 20px;
+    position: relative;
+    height: 29px;
+    border-radius: 4px 4px 0 0;
+    background: rgba(255, 191, 52, .13)
+}
+
+.live-item .header > img {
+    cursor: pointer
+}
+
+.live-item .header .name {
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    margin-left: 2px;
+    color: #9a9a9a;
+    padding-right: 20px;
+    cursor: pointer
+}
+
+.live-item .header .name, .live-item .header .tag {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC
+}
+
+.live-item .header .tag {
+    color: #fff;
+    width: 90px
+}
+
+.live-item .header .tag-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 500px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.live-item .header .bet {
+    min-width: 114px
+}
+
+.live-item .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 10px 0 20px;
+    height: 100%
+}
+
+.live-item .content .match-info {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    text-align: center;
+    color: #fff;
+    width: 40px
+}
+
+.live-item .content .match-info .duration.duration {
+    display: inline-block;
+    padding-left: 2px
+}
+
+.live-item .content .match-info .duration:after {
+    content: "'";
+    font-size: 14px;
+    margin-left: 2px;
+    color: #ffbf34;
+    -webkit-animation: ongoing-blink-data-v-7c4a47b0 1s linear infinite;
+    animation: ongoing-blink-data-v-7c4a47b0 1s linear infinite
+}
+
+.live-item .content .team-info {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 20px
+}
+
+.live-item .content .team-info, .live-item .content .team-info-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.live-item .content .team-info-item {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.live-item .content .team-info-item p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    color: #fff;
+    display: inline-block
+}
+
+.team-info-item {
+    height: 50%
+}
+
+.team-info-item .team {
+    display: inline-block;
+    width: 250px
+}
+
+.team-info-item .team .logo {
+    margin-right: 4px
+}
+
+.team-info-item .tag {
+    width: 90px
+}
+
+.team-info-item .tag .icon {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 16px;
+    height: 16px;
+    margin-left: 14px
+}
+
+.team-info-item .tag-side {
+    width: 95px
+}
+
+.team-info-item .tag-bo {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px
+}
+
+.team-info-item .bet > p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    display: inline-block;
+    color: #fff;
+    text-align: left
+}
+
+.video-panel {
+    position: absolute;
+    right: 10px
+}
+
+.live_container {
+    background-color: #2d2c2b;
+    padding: 16px 20px 20px
+}
+
+.live_container_tips{
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  background-color: #2d2c2b;
+  padding: 16px 20px 20px
+}
+
+.live_container_tips img{
+  width: 240px;
+  height: 160px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.live_container_tips p{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font: 400 12px/17px PingFangSC-Regular,PingFang SC;
+  padding-top: 8px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular,PingFang SC;
+  font-weight: 400;
+  color: #fff;
+  line-height: 17px;
+}
+
+.live_container_tips .desc{
+  color: #999999;
+  font-size: 12px;
+}
+
+.videos-panel {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.videos-panel:before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 0
+}
+
+.videos-panel .live-list {
+    width: 96px;
+    display: none;
+    position: absolute;
+    right: -56px;
+    padding: 0;
+    top: 0;
+    z-index: 9;
+    margin-top: 25px;
+    background: #232323;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12);
+    border: 1px solid #2d2c2b;
+    /*border-radius: 4px*/
+}
+
+.videos-panel .live-list .live-item {
+    cursor: pointer;
+    text-align: center;
+    z-index: 8;
+    margin: 0px;
+    width: 97px;
+    text-decoration: none;
+    color: #fff;
+    height: 42px;
+    display: block;
+    font-size: 13px;
+    line-height: 42px;
+    border-bottom: 1px solid #2d2c2b
+}
+
+.videos-panel .live-list .live-item > a :last-child {
+    border: none
+}
+
+.videos-panel .live-list .live-item > a > span:hover {
+    color: #ffbf34;
+    opacity: .98
+}
+
+.videos-panel .live-list .live-item span {
+    margin-left: 0
+}
+
+.videos-panel:hover .live-list {
+    display: block
+}
+
+
+.match-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 103px;
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 4px
+}
+
+.match-item img {
+    max-width: 24px;
+    max-height: 24px
+}
+
+.match-item .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 10px 0 20px;
+    position: relative;
+    height: 29px;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+    background: rgba(255, 191, 52, .13)
+}
+
+.match-item .header .name {
+    cursor: pointer;
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    margin-left: 2px;
+    color: #9a9a9a;
+    padding-right: 20px
+}
+
+.match-item .header .name, .match-item .header .tag {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC
+}
+
+.match-item .header .tag {
+    color: #fff;
+    min-width: 90px
+}
+
+.match-item .header .tag-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 500px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.match-item .header .bet {
+    min-width: 114px
+}
+
+.match-item .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 10px 0 20px;
+    height: 100%
+}
+
+.match-item .content .match-info {
+    /*overflow: hidden;*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    text-align: center;
+    color: #fff;
+    width: 40px;
+    max-width: 40px;
+    min-width: 40px;
+}
+
+.match-item .content .team-info {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 20px
+}
+
+.match-item .content .team-info, .match-item .content .team-info-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%
+}
+
+.match-item .content .team-info-item {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 30px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.match-item .content .team-info-item p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    color: #fff;
+    display: inline-block
+}
+
+.team-info-item {
+    height: 50%
+}
+
+.team-info-item p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    display: inline-block;
+    color: #fff;
+    text-align: left
+}
+
+.team-info-item .team {
+    display: inline-block;
+    width: 240px;
+    text-align: left;
+}
+
+.team-info-item .team .logo {
+    margin-right: 4px
+}
+
+.team-info-item .tag {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-align: center;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    text-align: left
+}
+
+.team-info-item .tag .icon {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 16px;
+    height: 16px;
+    margin-left: 10px
+}
+
+/*.team-info-item .first-half, .team-info-item .sconde-half {*/
+/*    padding-left: 8px*/
+/*}*/
+
+.team-info-item .bet {
+    margin-left: auto;
+    margin-right:93px;
+}
+
+.team-info-item .bet > p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font: 400 12px/17px PingFangSC-Regular, PingFang SC;
+    display: inline-block;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.match-item-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 128px;
+    border-radius: 4px;
+    margin: 0;
+    background-color: #2d2c2b
+}
